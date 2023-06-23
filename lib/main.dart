@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:yuhee/Examples/In%20App%20Review/in_ap_review.dart';
+import 'package:yuhee/Examples/Shimmer/shimmer_effects.dart';
 import 'package:yuhee/Examples/pagination/pagination_example.dart';
 import 'package:yuhee/Examples/pagination/pagination_example_two.dart';
 import 'package:yuhee/Examples/pagination/provider%20pagination/provider_pagination.dart';
@@ -38,7 +40,9 @@ class MyApp extends StatelessWidget {
         // const PullRefreshPage(), /// Pull down to refresh page
         // const PaginationExampleScreen(), /// Pagination
         // const PaginationExampleTwo(), /// Pagination
-        const ProviderPaginationScreen(), /// Pagination With Provider
+        // const ProviderPaginationScreen(), /// Pagination With Provider
+        // const InAppReviewExampleApp(), /// In App Review Screen
+        const ShimmerEffects(), /// Shimmer Effect Screen
       ),
     );
   }

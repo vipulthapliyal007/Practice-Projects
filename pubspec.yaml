@@ -45,6 +45,11 @@ dependencies:
   syncfusion_flutter_pdfviewer: ^20.2.45-beta
   http:
   provider:
+# For In App Review
+  in_app_review: ^2.0.6
+# For Shimmer
+  shimmer: ^3.0.0
+
 
 
 
